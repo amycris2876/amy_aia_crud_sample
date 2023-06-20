@@ -48,3 +48,21 @@ Steps to Run the code:
         ]
         * In the Lower part set that result type is JSON
         * Clink Send butoon
+     e. To Update Product:
+        * Use PUT method
+        * Use URL http://localhost:8080/update
+        * Set Body to raw
+        * Input data like this :
+         {
+            "id": "7",
+            "name": "Acer",
+            "description": "Acer i5",
+            "productType": "computer"
+        }
+        * In the Lower part set that result type is JSON
+        * Clink Send butoon
+    e. To Delete Product:
+        * Use DELETE method
+        * Use URL http://localhost:8080/delete/{ID#}
+        * In the Lower part set that result type is JSON
+        * Clink Send butoon
